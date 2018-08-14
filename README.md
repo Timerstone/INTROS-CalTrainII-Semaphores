@@ -1,1 +1,1 @@
-# INTROS-CalTrainII-Semaphores
+# INTROS CalTrainII Semaphores

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="736.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Board">
+   <children>
+      <ImageView fitWidth="1024.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@img/bg4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s6_light" fitHeight="38.0" fitWidth="18.0" layoutX="417.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s7_light" fitHeight="38.0" fitWidth="18.0" layoutX="175.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s8_light" fitHeight="38.0" fitWidth="18.0" layoutX="479.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s1_light" fitHeight="38.0" fitWidth="18.0" layoutX="417.0" layoutY="611.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s2_light" fitHeight="38.0" fitWidth="18.0" layoutX="797.0" layoutY="611.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s3_light" fitHeight="38.0" fitWidth="18.0" layoutX="788.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s4_light" fitHeight="38.0" fitWidth="18.0" layoutX="884.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="s5_light" fitHeight="38.0" fitWidth="18.0" layoutX="797.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="dispatchButton" layoutX="49.0" layoutY="547.0" prefHeight="31.0" prefWidth="50.0" />
+      <Label fx:id="s1_button" layoutX="367.0" layoutY="540.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s2_button" layoutX="743.0" layoutY="540.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s3_button" layoutX="790.0" layoutY="383.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s4_button" layoutX="781.0" layoutY="178.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s5_button" layoutX="884.0" layoutY="52.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s6_button" layoutX="513.0" layoutY="52.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s7_button" layoutX="196.0" layoutY="111.0" prefHeight="38.0" prefWidth="50.0" />
+      <Label fx:id="s8_button" layoutX="429.0" layoutY="309.0" prefHeight="38.0" prefWidth="50.0" />
+      <ImageView fx:id="pass2_light" fitHeight="38.0" fitWidth="18.0" layoutX="611.0" layoutY="574.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass3_light" fitHeight="38.0" fitWidth="18.0" layoutX="948.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass4_light" fitHeight="38.0" fitWidth="18.0" layoutX="698.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass5_light" fitHeight="38.0" fitWidth="18.0" layoutX="948.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass6_light" fitHeight="38.0" fitWidth="18.0" layoutX="649.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass7_light" fitHeight="38.0" fitWidth="18.0" layoutX="339.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pass8_light" fitHeight="38.0" fitWidth="18.0" layoutX="67.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="passY_light" fitHeight="38.0" fitWidth="18.0" layoutX="254.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="passX_light" fitHeight="38.0" fitWidth="18.0" layoutX="632.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@img/stoplight_off.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
